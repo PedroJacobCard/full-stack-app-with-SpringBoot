@@ -1,21 +1,14 @@
-//import { useState } from 'react'
-//import './index.css'
-
-//import SplitPane from './components/SplitPane';
-import MainPage from './components/Bar';
-//import Contacts from './components/Contacts';
-//import Chats from './components/Chat';
-//import Login from './components/pages/Login';
+import Header from "./components/Header";
+import ListarTarefa from "./pages/ListarTarefa";
 
 function App() {
-  //const [count, setCount] = useState(0)
 
   return (
     <div>
-      <MainPage />
+      <Header />
+      <ListarTarefa />
     </div>
-    
-  )
+  );
 }
 
 export default App
